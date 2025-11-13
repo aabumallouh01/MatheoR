@@ -1,0 +1,9 @@
+export const function getUserInfo(async () => {
+  const body = {name, email, password}
+
+  const userInfo = await fetch('http://localhost:3000/api/users'. {
+    method: 'POST',
+    content-type: 'application/json',
+    body: body;
+  )
+})
